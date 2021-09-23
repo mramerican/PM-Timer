@@ -1,0 +1,2 @@
+# Parimatch Tech Academy
+**Timer**

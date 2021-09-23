@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Timer</title>
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+  <link rel='stylesheet' href="styles/global.css" />
+  <link rel='stylesheet' href="styles/timer.css" />
+  <script type='text/javascript' rel='script' src='scripts/timer.js'></script>
+</head>
+<body>
+  <div class="timer">
+    <h1 class="time">
+      <span id="minutes"></span>
+      :
+      <span id="seconds"></span>
+    </h1>
+  </div>
+  <div class="controller">
+    <label>
+      <input id="timeInput" class="time__input" type="text" onChange="ChangeTime()" value='15:00' />
+    </label>
+    <input type="button" value="START" onclick="Start()">
+    <input type="button" value="STOP" onclick="Stop()">
+  </div>
+</body>
+</html>

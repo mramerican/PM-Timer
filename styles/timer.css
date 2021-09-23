@@ -1,0 +1,56 @@
+input, input:checked {
+    margin-bottom: 5px;
+    padding: 0.5em 1em;
+    background-color: rgb(15, 15, 15);
+    color:  rgb(2, 198, 16);
+
+    border-radius: 0.5em;
+    border-color: rgb(2, 198, 16);
+
+    text-align: center;
+    outline:none;
+}
+
+input:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+.timer {
+    display: inline-block;
+    position:absolute;
+    top: 42%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    line-height:0;
+}
+
+.time {
+    font-family: 'PariMatch', sans-serif;
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+.controller {
+    display: inline-block;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: auto;
+
+    position: fixed;
+    text-align: center;
+}
+
+@media only screen and (max-width: 840px) {
+    .time__input {
+        display: block;
+    }
+}
+
+@media only screen and (max-height: 740px) {
+    .controller {
+        top: 90%;
+    }
+}
