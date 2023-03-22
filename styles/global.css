@@ -1,9 +1,8 @@
 @font-face {
-    font-family: 'PariMatch';
+    font-family: 'NeueMachina';
     font-style: normal;
     font-weight: bold;
-    src: url('../fonts/Parimatch-Bold.woff2') format('woff2'),
-    url('../fonts/Parimatch-Bold.woff') format('woff');
+    src: url('../fonts/NeueMachina-Bold.otf');
 }
 
 html {
@@ -13,7 +12,7 @@ html {
 }
 
 body {
-    background: url(../img/bg.png) no-repeat;
+    background: url(../img/bg_gr8.png) no-repeat;
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -21,7 +20,13 @@ body {
 }
 
 h1 {
-    font-weight: bold;
-    color: rgb(2, 198, 16);
     margin: auto;
+}
+
+h1.time {
+    color: #00EEBC;
+
+    font-family: 'NeueMachina', sans-serif;
+    font-size: 10vw;
+    font-weight: bold;
 }

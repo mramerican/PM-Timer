@@ -2,10 +2,10 @@ input, input:checked {
     margin-bottom: 5px;
     padding: 0.5em 1em;
     background-color: rgb(15, 15, 15);
-    color:  rgb(2, 198, 16);
+    color:  #00EEBC;
 
     border-radius: 0.5em;
-    border-color: rgb(2, 198, 16);
+    border-color: #00EEBC;
 
     text-align: center;
     outline:none;
@@ -18,17 +18,11 @@ input:hover {
 .timer {
     display: inline-block;
     position:absolute;
-    top: 42%;
+    top: 47%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     line-height:0;
-}
-
-.time {
-    font-family: 'PariMatch', sans-serif;
-    font-size: 10vw;
-    font-weight: bold;
 }
 
 .controller {
